@@ -1,0 +1,50 @@
+.lazer {
+  padding: 70px 8%;
+  background:
+    linear-gradient(
+      135deg,
+      #08142e,
+      #132c6b
+    );
+  color: white;
+}
+
+.lazer-content {
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.lazer span {
+  color: #22c55e;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.lazer h2 {
+  font-size: 38px;
+  margin: 24px 0;
+  line-height: 1.2;
+}
+
+.lazer p {
+  font-size: 18px;
+  line-height: 1.8;
+  opacity: 0.9;
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+  .lazer {
+    padding: 60px 20px;
+  }
+
+  .lazer h2 {
+    font-size: 2rem;
+  }
+
+  .lazer p {
+    font-size: 16px;
+  }
+}
